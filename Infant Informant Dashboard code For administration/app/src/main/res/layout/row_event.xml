@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/layout_row"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Event Name"
+            android:id="@+id/rename"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="Event Date :"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"/>
+        <TextView
+            android:text="Date"
+            android:id="@+id/redate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="99dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"/>
+        <TextView
+            android:text="Event time :"
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"/>
+        <TextView
+            android:text="Time"
+            android:id="@+id/retime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="278dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:id="@+id/reid"
+            android:visibility="invisible"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

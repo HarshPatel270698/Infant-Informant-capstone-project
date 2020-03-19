@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "746264827996",
+    "firebase_url": "https://infant-informant.firebaseio.com",
+    "project_id": "infant-informant",
+    "storage_bucket": "infant-informant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746264827996:android:3324a3915844c9b7",
+        "android_client_info": {
+          "package_name": "com.example.harsh.infantinformant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIFMpFV_lILMx0L-YZmRy4nTlyoWl7fsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746264827996-vfl6eglgv57nidqf35u0c3np3o3ed2jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

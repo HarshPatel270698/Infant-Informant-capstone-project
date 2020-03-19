@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/layout_row"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvgr"
+            android:textSize="17dp"
+            android:text="GR Number              :"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/Lgr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gr Number"
+            android:layout_toRightOf="@id/tvgr"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Leave Start              :"
+            android:id="@+id/tv1"
+            android:layout_below="@+id/tvgr"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Lstart"
+            android:id="@+id/lstart"
+            android:layout_toRightOf="@id/tv1"
+            android:layout_below="@id/tvgr"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Leave End                :"
+            android:id="@+id/tv2"
+            android:layout_below="@+id/tv1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/lend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:text="Lend"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:layout_toRightOf="@+id/tvgr" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Reason                     :"
+            android:id="@+id/tv3"
+            android:layout_below="@+id/tv2"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/lreason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv3"
+            android:layout_below="@id/lend"
+            android:text="Reason"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/approve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_radius"
+            android:layout_below="@+id/lreason"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Approve"/>
+        <Button
+            android:id="@+id/decline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lreason"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_radius"
+            android:text="Decline"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/lid"
+            android:text="lid"/>
+    </RelativeLayout>
+</LinearLayout>

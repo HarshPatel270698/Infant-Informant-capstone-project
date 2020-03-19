@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/layout_row"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Date of Payment   :"
+            android:id="@+id/tv4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Date"
+            android:id="@+id/rfda"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="154dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Fees Paid               :"
+            android:id="@+id/tv1"
+            android:layout_marginTop="33dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/rfamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginBottom="10dp"
+            android:text="Amount"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Mode of Payment :"
+            android:id="@+id/tv2"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/rfoption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp"
+            android:text="Fees mode"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Transaction ID       :"
+            android:id="@+id/tv3"
+            android:layout_marginTop="87dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/rftno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="87dp"
+            android:layout_marginBottom="10dp"
+            android:text="T no"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

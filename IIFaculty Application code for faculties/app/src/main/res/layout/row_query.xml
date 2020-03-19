@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/layout_row"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="GR Number : "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:id="@+id/sgr"
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv"
+            android:text="Question      : "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/question"
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv1"
+            android:layout_below="@id/tv"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id1"
+           android:visibility="invisible"/>
+    </RelativeLayout>
+</LinearLayout>
