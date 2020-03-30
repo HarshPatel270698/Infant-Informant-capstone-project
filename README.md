@@ -1,7 +1,24 @@
-# Infant-Informant-capstone-project
-This is the capstone project that I developed during my Bachelor of Engineering
+<img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Logo/logo%20black%20with%20text.png" align="left" height="90" width="200" >
+The goal behind creation of this project is to build a portal on which school can relay for everyday administration. Focus of portal was to provide all technical features to a school that can establish a bond between school, professors and parents. I decide to divide this portal in to 3 parts.
 
-# Adobe XD wireframe of project
+1. Infant Informant Dashboard (Desktop Application) 
+2. Infant Informant (Android Application)
+3. IIFaculty (Android Application)
+
+# Features
+Infant Informant | IIFaculty | Infant Informant Dashboard
+---------------- | --------- |----------------------------
+My Profile | My Profile | Student Data Management
+Homework | Homework | Faculty Data Management
+Attendance | Attendance|
+Leaves | Leaves|
+Fees | | Fees
+Events | | Events
+Timetable | | Timetable
+Result | | Result
+Query | Query|
+
+### Adobe XD wireframe of project
 This is UI design made by me on Jan 30,2019 for my final year BE project. UI is made by the use of Adobe XD. Icons and images were taken from various sources available online.
 
 You can go through User Interface by use of a link available below or you can use      Infant Informant design.xd file to export it in your Adobe XD Software. :smile:
@@ -9,6 +26,7 @@ You can go through User Interface by use of a link available below or you can us
 https://xd.adobe.com/view/ddba2d6e-3903-4c2d-4cc4-6b5d17e3c698-ab8b/?fullscreen
  :tada::confetti_ball:
 
+### Portrayal about directories and files
 * Database :
 Data Base.xlsx file was made to develop the structure of a database. This folder has a Database.sql file. It is a backup of my database and there are many images of database tables that show how data is stored in tables.
 
@@ -24,7 +42,7 @@ IIFaculty code is an android project. You can import this project in your Androi
 * Infant Informant Application code for parents :
 Infant Informant application was developed by this android studio project.:family_man_woman_girl_boy:
 
-* Infant Informant Dashboard code For administration :
+* Infant Informant Dashboard code For administration 
 Admin panel was developed by these files.:school:
 
 * IIFaculty.apk :
