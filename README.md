@@ -1,5 +1,6 @@
-<img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Logo/logo%20black%20with%20text.png" align="left" height="90" width="200" >
+<img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Logo/logo%20black%20with%20text.png" align="left" height="80" width="200" >
 The goal behind creation of this project is to build a portal on which school can relay for everyday administration. Focus of portal was to provide all technical features to a school that can establish a bond between school, professors and parents. I decide to divide this portal in to 3 parts.
+
 
 1. Infant Informant Dashboard (Desktop Application) 
 2. Infant Informant (Android Application)
