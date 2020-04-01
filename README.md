@@ -1,28 +1,30 @@
 <img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Logo/logo%20black%20with%20text.png" align="left" height="80" width="200">
-The goal behind creation of this project is to build a portal on which school can relay for everyday administration. Focus of portal was to provide all technical features to a school that can establish a bond between school, professors and parents. I decided to divide this portal in to 3 parts.
+The ambition behind creation of this system is to build a portal on which school can relay for administration. Focus of portal was to provide all technical features to a school that can establish a connection between school, professors and parents. This system is divided in to 3 parts.
 
 
-1. Infant Informant Dashboard (Desktop Application) 
-2. Infant Informant (Android Application)
-3. IIFaculty (Android Application)
+1. Infant Informant (Android Application) : It's an application designed for parents to monitor academic success for their children. Parents can log in to this application by filling information like GR number of student and password given by the school. Parent's can use various feature of application such as My profile to see student details, daily homework updates, Attendance to check attendance over the intake, parent's can submit leave request and they can get approval update in an application, Fees feature is to check fee status, Access to event updates, Timetable will show you a schedule of the term, Result feature will show result submitted by school administration department and parents can raise query and professor can respond to that query.
+
+2. IIFaculty (Android Application) : IIFaculty application is developed for professors. Professor can log in by using their faculty ID and password. They can see their profile details, publish homework on daily basis, enter attendance details, approve leave requests and if they want to decline then they can specify the reason for leave rejection, and they can respond to query raised by parents.
+
+3. Infant Informant Dashboard (Web Application) : This web application is specially developed for the school administration department. As administrators of school will require much authority, the admin will receive a powerful features of portal in the form of a web application. Admin will receive a hyperlink from this project and admin can log in using user ID and password. In Faculty feature admin can add new faculty ID's. Admin can activate and deactivate these ids at any time. Admin can add student details, tuition fee updates, result updates, modify exist student details and they can search for details of a specific student. Admin can upload a timetable for a class and event for the entire school. In recapitulation, an admin will get full access to a system that is required to manage a school.
 
 # Features
 Infant Informant | IIFaculty | Infant Informant Dashboard
 ---------------- | --------- |----------------------------
-My Profile | My Profile | Student Data Management
-Homework | Homework | Faculty Data Management
-Attendance | Attendance|
-Leaves | Leaves|
-Fees | | Fees
-Events | | Events
-Timetable | | Timetable
-Result | | Result
-Query | Query|
+My Profile       | My Profile| Student Data Management
+Homework         | Homework  | Faculty Data Management
+Attendance       | Attendance|
+Leave            | Leave     |    
+Fees             |           | Fees
+Events           |           | Events
+Timetable        |           | Timetable
+Result           |           | Result
+Query            | Query     |
 
 ### Adobe XD wireframe of project
 This is UI design made by me on Jan 30,2019 for my final year BE project. UI is made by the use of Adobe XD. Icons and images were taken from various sources available online.
 
-You can go through User Interface by use of a link available below or you can use      Infant Informant design.xd file to export it in your Adobe XD Software. :smile:
+You can go through User Interface by use of a link available below or you can use Infant Informant design.xd file to export it in your Adobe XD Software. :smile:
 
 https://xd.adobe.com/view/ddba2d6e-3903-4c2d-4cc4-6b5d17e3c698-ab8b/?fullscreen
  :tada::confetti_ball:
@@ -67,26 +69,26 @@ https://xd.adobe.com/view/ddba2d6e-3903-4c2d-4cc4-6b5d17e3c698-ab8b/?fullscreen
 
 <table style="width:100%">
  <tr>
-  <th colspan="2"> Infant Informant Desktop Application </th>  
+  <th colspan="2"> Infant Informant Web Application </th>  
  </tr>
   <tr>
-  <td colspan="2"><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Capture.JPG" align="centre" height="100%" width="100%"></td>
+  <td><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Capture.JPG" align="centre" height="100%" width="100%"></td>
    <td>Landing page for admin.</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Faculty.JPG" align="centre" height="100%" width="100%"></td>
+    <td><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Faculty.JPG" align="centre" height="100%" width="100%"></td>
    <td>This page helps Admin to build a profile for staff. Data of faculties is displayed on this page. Admin can revoke faculty id access from any faculty at any time.</td>
  </tr>
  <tr>
-   <td colspan="2"><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Student.JPG" align="centre" height="100%" width="100%"></td>
+   <td><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Student.JPG" align="centre" height="100%" width="100%"></td>
   <td>Admin will use this feature of the portal to add student details. Administration can keep track of students tuition fees.</td>
  </tr>
   <tr>
-  <td colspan="2"><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/timetable.JPG" align="centre" height="100%" width="100%"></td>
+  <td><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/timetable.JPG" align="centre" height="100%" width="100%"></td>
   <td>Admin can update timetable according to class and intake.</td>
   </tr>
   <tr>
-  <td colspan="2"><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Event.JPG" align="centre" height="100%" width="100%"></td>
+  <td><img src="https://github.com/HarshPatel270698/Infant-Informant-capstone-project/blob/master/Screenshots/Event.JPG" align="centre" height="100%" width="100%"></td>
   <td>Admin can update or add event by this feature.</td>
   </tr>
 </table>
